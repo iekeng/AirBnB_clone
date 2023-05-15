@@ -1,7 +1,5 @@
 .container section.filters {
     position: relative;
-    margin-left: auto;
-    margin-right: auto;
     background-color: white;
     height: 70px;
     width: 100%;
@@ -10,25 +8,26 @@
 }
 
 .container .filters h4 {
-    position: inherit;
+    margin-top: 0;
     font-weight: 400;
     font-size: 14;
 }
 
 .container .filters h3 {
-    position: inherit;
+    margin-bottom: 0;
     font-weight: 600;
 }
 
 .container .filters .amenities {
     position: absolute;
-    left: 25%;
+    left: 35%;
     height: 100%;
     width: 25%;
 }
 
 .container .filters .locations {
     position: absolute;
+    left: 5%;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
