@@ -27,11 +27,19 @@
     width: 25%;
 }
 
+.container .filters .amenities ul li {
+    padding-left: 15%;
+}
+
 .container .filters .locations {
     position: absolute;
     height: 100%;
     width: 25%;
     border-right: 1px solid #DDDDDD;
+}
+
+.container .filters .locations h2 {
+    margin: 0px;
 }
 
 .container .filters .popover {
@@ -52,18 +60,25 @@
     margin-bottom: 1px;
 }
 
-.container .filters .amenities ul li {
-    padding-left: 15%;
-}
-
-
-.container .filters .locations h2 {
-    margin: 0px;
-}
-
 .container .filters .locations .popover ul {
     margin-bottom: 20px;
 }
+
+.filters .locations .popover {
+    visibility: hidden;
+}
+.filters .locations:hover .popover {
+    visibility: visible;
+}
+
+.filters .amenities .popover {
+    visibility: hidden;
+}
+
+.filters .amenities:hover .popover {
+    visibility: visible;
+}
+
 
 .container .filters button {
     position: absolute;
